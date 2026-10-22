@@ -200,3 +200,11 @@ figcaption { font-size: 0.98rem; color: var(--muted); margin: 0.5rem 0 0.6rem; }
 .chart .bar:focus-visible rect:first-of-type { stroke: var(--ink); stroke-width: 2; }
 details { margin: 1rem 0 1.6rem; }
 summary { font-family: var(--display); font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; cursor: pointer; color: var(--amber-ink); }
+
+.composed { width: 100%; min-height: 9rem; font: inherit; font-size: 1rem; padding: 0.6rem; background: var(--panel); color: var(--ink); border: 1px solid var(--rule); margin-top: 0.6rem; }
+.skip { position: absolute; left: -999px; top: 0; } .skip:focus { left: max(16px, env(safe-area-inset-left, 0px)); top: 8px; background: var(--amber); color: #14181B; padding: 0.4rem 0.8rem; z-index: 50; }
+.band .tag.doc { color: #7FD3A1; } .band .tag.emp { color: #F0B35E; } .band .tag.pending { color: #B8C2CA; } .band .tag.rumor { color: #F08A7E; }
+
+.story-card{border:1px solid var(--rule);border-left:4px solid var(--amber);padding:1rem 1.25rem;margin:1rem 0 1.5rem;background:var(--card,transparent)}
+.story-card h3{margin:.1rem 0 .4rem;font-family:"Barlow Condensed",sans-serif;font-size:1.6rem}
+.story-card .eyebrow{margin:0}
